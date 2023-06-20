@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Main";
+}
+
+<h2>Welcome to Assesement Project Designed By NIMAP INFOTECH </h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <style>
+        .colorful-heading {
+            color: #FFA500; /* Pink color */
+        }
+
+        .colorful-text {
+            color: #00b3b3; /* Teal color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 mt-5">
+                <h1 class="text-center colorful-heading">Welcome to Our Website</h1>
+                <p class="text-center colorful-text">Assesment done by Mr.Vaibhav Anil Mahajan</p>
+                <div class="text-center">
+                    <a href="@Url.Action("Index", "Categories")" class="btn btn-primary">Categories Master</a>
+                    <a href="@Url.Action("Index", "Products")" class="btn btn-primary">Products Master</a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
